@@ -222,7 +222,7 @@ def nordnet_lookup(isin):
     best = None
     for x in data.get("results") or []:
         info, price = x.get("instrument_info", {}), x.get("price_info", {})
-        last = (price.get("last") or {}).get("price")
+        last = (price.get("last") or {}).get("price") or (price.get("close") or {}).get("price")
         if not last:
             continue
         cand = {
