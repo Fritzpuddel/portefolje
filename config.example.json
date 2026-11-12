@@ -1,0 +1,15 @@
+{
+  "port": 8080,
+  "hent_hvert_minut": 5,
+  "hent_fra_kl": 7,
+  "hent_til_kl": 23,
+  "konti": {
+    "SKRIV-DEPOTNUMMER-HER": "aktiedepot",
+    "SKRIV-DEPOTNUMMER-HER-2": "ratepension"
+  },
+  "historik_dage": 400,
+  "github": {
+    "aktiv": true,
+    "publicer_kl": "22:45"
+  }
+}

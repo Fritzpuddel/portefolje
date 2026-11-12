@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Guggas portefølje</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+/* Live-oversigt: header med status, nøgletal, i dag, udvikling, beholdning */
+:root {
+  --bg: #f6f7f5; --panel: #ffffff; --fg: #1d2421; --muted: #5d6963; --line: #dfe3df;
+  --accent: #1f6f5c; --ok: #1d7a46; --bad: #b3362f; --warn: #a86a08; --grid: #e9ece9;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --num: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #121614; --panel: #1a201d; --fg: #e6ebe8; --muted: #9aa69f; --line: #2c3430;
+    --accent: #5fbf9f; --ok: #5cc98a; --bad: #ef7a72; --warn: #e0a84a; --grid: #252c28; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 var(--sans); }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 20px max(16px, env(safe-area-inset-left)) 40px max(16px, env(safe-area-inset-right)); display: flex; flex-direction: column; gap: 16px; }
+.top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px; }
+h1 { margin: 0; font-size: 26px; font-weight: 600; }
+.status { color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 4px; }
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--ok); margin-right: 6px; }
+.dot.old { background: var(--warn); } .dot.err { background: var(--bad); }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--panel); }
+.seg button { font: inherit; font-size: 13px; padding: 6px 12px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--bg); color: var(--fg); font-weight: 600; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 12px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; min-width: 0; }
+.label { font-size: 12px; color: var(--muted); }
+.big { font-size: 24px; font-variant-numeric: tabular-nums; margin-top: 2px; }
+.sub { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pos { color: var(--ok); } .neg { color: var(--bad); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 12px; }
+.head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+h2 { font-size: 16px; margin: 0; font-weight: 600; }
+.chart { position: relative; min-height: 220px; margin-top: 8px; }
+.chart svg text { fill: var(--muted); font-size: 11px; }
+.empty { color: var(--muted); font-size: 13px; display: flex; align-items: center; justify-content: center; min-height: 200px; text-align: center; }
+.tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); white-space: nowrap; }
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--muted); font-weight: 500; }
+.minis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px; }
+.mini .chart { min-height: 90px; }
+.upload { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+.upload label, .btn { border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; cursor: pointer; background: var(--panel); color: var(--fg); font: inherit; font-size: 13px; }
+.upload input { display: none; }
+@media (max-width: 560px) { .hide-narrow { display: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>Guggas portefølje</h1>
+      <div class="status" id="status">Henter…</div>
+    </div>
+    <div class="seg" id="konti" role="group" aria-label="Vælg konto"></div>
+  </div>
+
+  <div class="kpis">
+    <div class="card"><div class="label">Værdi i alt</div><div class="big" id="k-vaerdi">—</div><div class="sub" id="k-kontant"></div></div>
+    <div class="card"><div class="label">I dag</div><div class="big" id="k-idag">—</div><div class="sub" id="k-idagpct"></div></div>
+    <div class="card"><div class="label">Afkast i alt</div><div class="big" id="k-afkast">—</div><div class="sub" id="k-ind"></div></div>
+    <div class="card"><div class="label">Urealiseret</div><div class="big" id="k-ureal">—</div><div class="sub">På papirer du ejer nu</div></div>
+    <div class="card"><div class="label">Realiseret og udbytte</div><div class="big" id="k-real">—</div><div class="sub" id="k-udb"></div></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <div class="head"><h2>I dag</h2><span class="sub" id="idag-note"></span></div>
+      <div class="chart" id="c-idag"></div>
+    </div>
+    <div class="card">
+      <div class="head"><h2>Udvikling</h2>
+        <div class="seg" id="periode" role="group" aria-label="Periode">
+          <button data-p="7">1 uge</button><button data-p="31">1 md.</button><button data-p="92">3 md.</button><button data-p="400">Alt</button>
+        </div>
+      </div>
+      <div class="chart" id="c-hist"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Beholdning</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Papir</th><th>Antal</th><th>Kurs</th><th>I dag</th><th>Værdi</th><th class="hide-narrow">Kostpris</th><th>Afkast</th><th class="hide-narrow">Andel</th></tr></thead>
+        <tbody id="pos"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h2 style="margin-bottom:8px">Kurs pr. papir</h2>
+    <div class="minis" id="minis"></div>
+  </div>
+
+  <div class="card upload">
+    <span>Har du handlet? Hent "Transaktioner og notaer" som CSV fra Nordnet og læg den ind her.</span>
+    <label for="file">Vælg CSV-fil</label><input type="file" id="file" accept=".csv">
+    <button class="btn" id="hent">Hent kurser nu</button>
+    <span id="upload-msg"></span>
+  </div>
+</div>
+
+<script>
+const kr = new Intl.NumberFormat('da-DK', { style: 'currency', currency: 'DKK', maximumFractionDigits: 0 });
+const kr2 = new Intl.NumberFormat('da-DK', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const pct = new Intl.NumberFormat('da-DK', { style: 'percent', minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const sKr = (v) => v == null ? '—' : (v > 0 ? '+' : '') + kr.format(v);
+const sPct = (v) => v == null ? '' : (v > 0 ? '+' : '') + pct.format(v);
+const cls = (el, v) => { el.classList.toggle('pos', v > 0); el.classList.toggle('neg', v < 0); };
+const $ = (id) => document.getElementById(id);
+const dateFmt = (s) => new Intl.DateTimeFormat('da-DK', { day: 'numeric', month: 'short' }).format(new Date(s + 'T12:00:00'));
+const timeFmt = (ms) => new Intl.DateTimeFormat('da-DK', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Copenhagen' }).format(new Date(ms));
+const navne = { alle: 'Samlet', aktiedepot: 'Aktiedepot', ratepension: 'Ratepension' };
+
+let DATA = null;
+let konto = (() => { try { return localStorage.getItem('konto') || 'alle'; } catch { return 'alle'; } })();
+let periode = 92;
+
+function line(box, pts, { h, axes, color, fmtX }) {
+  box.replaceChildren();
+  if (pts.length < 2) { const e = document.createElement('div'); e.className = 'empty'; e.textContent = pts.length ? 'Kun ét målepunkt indtil videre.' : 'Ingen data endnu.'; box.append(e); return; }
+  const W = Math.max(box.clientWidth, 200);
+  const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${h}`).attr('height', h);
+  const ext = d3.extent(pts, (p) => p.v), pad = (ext[1] - ext[0]) * 0.1 || 1;
+  const y = d3.scaleLinear([ext[0] - pad, ext[1] + pad], [h - (axes ? 22 : 4), 6]).nice(axes ? 4 : 2);
+  let left = 4;
+  if (axes) {
+    const ticks = y.ticks(4);
+    const lab = svg.append('g').selectAll('text').data(ticks).join('text').text((t) => kr2.format(t).replace(/,00$/, ''));
+    left = d3.max(lab.nodes(), (n) => n.getComputedTextLength()) + 8;
+    lab.attr('x', left - 6).attr('y', (t) => y(t) + 4).attr('text-anchor', 'end');
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', left).attr('x2', W - 6).attr('y1', y).attr('y2', y).attr('stroke', 'var(--grid)');
+  }
+  const x = d3.scaleUtc(d3.extent(pts, (p) => p.d), [left, W - 6]);
+  if (axes) svg.append('g').selectAll('text').data(x.ticks(Math.max(2, Math.floor((W - left) / 90)))).join('text')
+    .text(fmtX).attr('x', x).attr('y', h - 4).attr('text-anchor', 'middle');
+  svg.append('path').datum(pts).attr('fill', color).attr('fill-opacity', 0.08).attr('d', d3.area().x((p) => x(p.d)).y0(y.range()[0]).y1((p) => y(p.v)));
+  svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', color).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round')
+    .attr('d', d3.line().x((p) => x(p.d)).y((p) => y(p.v)));
+  const last = pts[pts.length - 1];
+  svg.append('circle').attr('cx', x(last.d)).attr('cy', y(last.v)).attr('r', 3).attr('fill', color);
+  const dot = svg.append('circle').attr('r', 4).attr('fill', color).style('visibility', 'hidden');
+  const tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; box.append(tip);
+  const bis = d3.bisector((p) => p.d).center;
+  svg.append('rect').attr('x', left).attr('width', W - left).attr('height', h).attr('fill', 'transparent')
+    .on('mousemove', (ev) => {
+      const p = pts[bis(pts, x.invert(d3.pointer(ev)[0]))];
+      dot.attr('cx', x(p.d)).attr('cy', y(p.v)).style('visibility', 'visible');
+      tip.textContent = `${p.label} · ${p.text}`; tip.hidden = false;
+      const px = x(p.d) / W * box.clientWidth;
+      tip.style.left = Math.min(Math.max(0, px + 10), box.clientWidth - tip.offsetWidth) + 'px';
+      tip.style.top = Math.max(0, y(p.v) - 34) + 'px';
+    })
+    .on('mouseleave', () => { tip.hidden = true; dot.style('visibility', 'hidden'); });
+}
+
+function render() {
+  if (!DATA) return;
+  const k = DATA.konto[konto] || DATA.konto.alle;
+  // konto-knapper
+  const seg = $('konti'); seg.replaceChildren();
+  DATA.konti.forEach((n) => { const b = document.createElement('button'); b.textContent = navne[n] || n; b.setAttribute('aria-pressed', String(n === konto));
+    b.onclick = () => { konto = n; try { localStorage.setItem('konto', n); } catch {} render(); }; seg.append(b); });
+  document.querySelectorAll('#periode button').forEach((b) => b.setAttribute('aria-pressed', String(+b.dataset.p === periode)));
+  // status
+  const st = $('status'); st.replaceChildren();
+  const part = (txt, c) => { const s = document.createElement('span'); const d = document.createElement('span'); d.className = 'dot ' + (c || ''); s.append(d, txt); st.append(s); };
+  const s = DATA.status;
+  const age = s.sidst_hentet ? (Date.now() - Date.parse(s.sidst_hentet)) / 60000 : Infinity;
+  part(s.sidst_hentet ? 'Kurser hentet ' + new Date(s.sidst_hentet).toLocaleString('da-DK', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : 'Ingen kurser hentet siden start', s.fejl ? 'err' : age > 60 ? 'old' : '');
+  if (s.fejl) part('Fejl: ' + s.fejl, 'err');
+  if (s.sidst_publiceret) part('Sendt til Claude ' + new Date(s.sidst_publiceret).toLocaleString('da-DK', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }), s.publicer_fejl ? 'err' : '');
+  if (s.publicer_fejl) part('GitHub: ' + s.publicer_fejl, 'err');
+  if (DATA.sidste_transaktion) part('Transaktioner til og med ' + dateFmt(DATA.sidste_transaktion), 'old');
+  // nøgletal
+  $('k-vaerdi').textContent = kr.format(k.vaerdi_dkk);
+  $('k-kontant').textContent = 'Heraf kontant ' + kr.format(k.kontant_dkk);
+  $('k-idag').textContent = sKr(k.i_dag_dkk); cls($('k-idag'), k.i_dag_dkk);
+  $('k-idagpct').textContent = k.i_dag_pct == null ? 'Ingen kurs fra sidste handelsdag' : sPct(k.i_dag_pct) + ' siden sidste lukkekurs';
+  $('k-afkast').textContent = sKr(k.afkast_dkk); cls($('k-afkast'), k.afkast_dkk);
+  $('k-ind').textContent = `Indbetalt ${kr.format(k.indbetalt_dkk)}, hævet ${kr.format(k.haevet_dkk)}`;
+  $('k-ureal').textContent = sKr(k.urealiseret_dkk); cls($('k-ureal'), k.urealiseret_dkk);
+  $('k-real').textContent = sKr(k.realiseret_dkk); cls($('k-real'), k.realiseret_dkk);
+  $('k-udb').textContent = 'Udbytte efter skat ' + kr.format(k.udbytte_dkk);
+  // i dag
+  const ip = k.intraday.map((p) => ({ d: new Date(p.ts), v: p.vaerdi_dkk, label: timeFmt(p.ts), text: kr.format(p.vaerdi_dkk) }));
+  line($('c-idag'), ip, { h: 220, axes: true, color: 'var(--accent)', fmtX: (d) => timeFmt(+d) });
+  $('idag-note').textContent = ip.length ? `${ip.length} målinger, kurser er ca. 15 min. forsinkede` : '';
+  // udvikling
+  const from = new Date(Date.now() - periode * 864e5).toISOString().slice(0, 10);
+  const hp = k.historik.filter((p) => p.dato >= from).map((p) => ({ d: new Date(p.dato + 'T12:00:00'), v: p.vaerdi_dkk, label: dateFmt(p.dato), text: kr.format(p.vaerdi_dkk) }));
+  line($('c-hist'), hp, { h: 220, axes: true, color: 'var(--accent)', fmtX: d3.timeFormat('%-d/%-m') });
+  // tabel
+  const body = $('pos'); body.replaceChildren();
+  const td = (t, c) => { const e = document.createElement('td'); e.textContent = t; if (c) e.className = c; return e; };
+  k.positioner.forEach((p) => {
+    const tr = document.createElement('tr');
+    const dag = td(sPct(p.dag_pct)); cls(dag, p.dag_pct);
+    const af = td(p.afkast_dkk == null ? '—' : `${sKr(p.afkast_dkk)} (${sPct(p.afkast_pct)})`); cls(af, p.afkast_dkk);
+    tr.append(td(p.papir), td(kr2.format(p.antal).replace(/,00$/, '')), td(p.kurs == null ? '—' : `${kr2.format(p.kurs)} ${p.valuta}`), dag,
+      td(p.vaerdi_dkk == null ? '—' : kr.format(p.vaerdi_dkk)), td(kr.format(p.kostpris_dkk), 'hide-narrow'), af, td(pct.format(p.andel), 'hide-narrow'));
+    body.append(tr);
+  });
+  // små kurver
+  const minis = $('minis'); minis.replaceChildren();
+  k.positioner.forEach((p) => {
+    const rows = (k.papir_historik[p.isin] || []).filter((r) => r.dato >= from);
+    const c = document.createElement('div'); c.className = 'card mini';
+    const h = document.createElement('div'); h.className = 'head';
+    const n = document.createElement('span'); n.textContent = p.papir; n.style.fontWeight = '600'; n.style.fontSize = '13px';
+    const ch = document.createElement('span'); ch.className = 'sub';
+    if (rows.length > 1) { const v = rows[rows.length - 1].kurs / rows[0].kurs - 1; ch.textContent = sPct(v); cls(ch, v); }
+    h.append(n, ch);
+    const box = document.createElement('div'); box.className = 'chart';
+    c.append(h, box); minis.append(c);
+    const up = rows.length > 1 && rows[rows.length - 1].kurs >= rows[0].kurs;
+    line(box, rows.map((r) => ({ d: new Date(r.dato + 'T12:00:00'), v: r.kurs, label: dateFmt(r.dato), text: `${kr2.format(r.kurs)} ${p.valuta || ''}` })),
+      { h: 90, axes: false, color: up ? 'var(--ok)' : 'var(--bad)' });
+  });
+}
+
+async function load() {
+  try {
+    const r = await fetch('/api/data', { cache: 'no-store' });
+    DATA = await r.json();
+    if (DATA.fejl) throw new Error(DATA.fejl);
+    if (!DATA.konto[konto]) konto = 'alle';
+    render();
+  } catch (e) {
+    $('status').textContent = 'Kunne ikke hente data fra Pi\'en: ' + e.message;
+  }
+}
+
+document.querySelectorAll('#periode button').forEach((b) => b.addEventListener('click', () => { periode = +b.dataset.p; render(); }));
+$('file').addEventListener('change', async (ev) => {
+  const f = ev.target.files[0]; if (!f) return;
+  $('upload-msg').textContent = 'Lægger filen ind…';
+  try {
+    const r = await fetch('/api/upload', { method: 'POST', headers: { 'X-Filename': encodeURIComponent(f.name) }, body: f });
+    const j = await r.json();
+    $('upload-msg').textContent = j.ok ? `Gemt. ${j.transaktioner} transaktioner i alt.` : j.fejl;
+    setTimeout(load, 4000);
+  } catch (e) { $('upload-msg').textContent = 'Upload fejlede: ' + e.message; }
+  ev.target.value = '';
+});
+$('hent').addEventListener('click', async () => { await fetch('/api/hent', { method: 'POST' }); $('upload-msg').textContent = 'Henter kurser…'; setTimeout(load, 8000); });
+window.addEventListener('resize', () => { clearTimeout(window._rz); window._rz = setTimeout(render, 150); });
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>
