@@ -1,0 +1,79 @@
+[
+{
+"isin": "GB00BZ3CNK81",
+"papir": "TORM plc A",
+"ticker": "TRMD A",
+"kurs": 247.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0,
+"kursdato": "2026-11-13",
+"kilde": "Nordnet (via Raspberry Pi)",
+"hentet": "2026-11-13T21:49:53Z"
+},
+{
+"isin": "IE000563TYB5",
+"papir": "Nordnet Global Indeks 125 DKK",
+"ticker": "Nordnet Global Indeks 125 DKK",
+"kurs": 181.93,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0,
+"kursdato": "2026-11-12",
+"kilde": "Nordnet (via Raspberry Pi)",
+"hentet": "2026-11-13T21:49:53Z"
+},
+{
+"isin": "IE00BNNLSN94",
+"papir": "Nordnet Teknologi Indeks DKK",
+"ticker": "Nordnet Teknologi Indeks DKK",
+"kurs": 270.34,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0,
+"kursdato": "2026-11-12",
+"kilde": "Nordnet (via Raspberry Pi)",
+"hentet": "2026-11-13T21:49:53Z"
+},
+{
+"isin": "SE0007074166",
+"papir": "Nanexa AB",
+"ticker": "NANEXA",
+"kurs": 10.08,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.6757240481614057,
+"kursdato": "2026-11-13",
+"kilde": "Nordnet (via Raspberry Pi)",
+"hentet": "2026-11-13T21:49:53Z"
+},
+{
+"isin": "SE0017832397",
+"papir": "Nordnet One Offensiv DKK",
+"ticker": "Nordnet One Offensiv DKK",
+"kurs": 159.65,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0,
+"kursdato": "2026-11-11",
+"kilde": "Nordnet (via Raspberry Pi)",
+"hentet": "2026-11-13T21:49:53Z"
+},
+{
+"isin": "SE0028778431",
+"papir": "Nordnet Germany A",
+"ticker": "NORDNET GERMANY A",
+"kurs": 10.67,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.4754,
+"kursdato": "2026-11-12",
+"kilde": "Nordnet (via Raspberry Pi)",
+"hentet": "2026-11-13T21:49:53Z"
+},
+{
+"isin": "US83406F1021",
+"papir": "SoFi Technologies",
+"ticker": "SOFI",
+"kurs": 15.42,
+"valuta": "USD",
+"dkk_pr_enhed": 6.7461420449417915,
+"kursdato": "2026-11-13",
+"kilde": "Nordnet (via Raspberry Pi)",
+"hentet": "2026-11-13T21:49:53Z"
+}
+]

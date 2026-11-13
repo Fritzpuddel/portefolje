@@ -1,0 +1,2459 @@
+[
+{
+"dato": "2026-08-11",
+"isin": "GB00BZ3CNK81",
+"kurs": 185.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-11",
+"isin": "US30041T1043",
+"kurs": 16.44,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-11",
+"isin": "US4581401001",
+"kurs": 97.71,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-11",
+"isin": "US83406F1021",
+"kurs": 17.98,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-12",
+"isin": "GB00BZ3CNK81",
+"kurs": 187.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-12",
+"isin": "US30041T1043",
+"kurs": 17.06,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-12",
+"isin": "US4581401001",
+"kurs": 100.95,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-12",
+"isin": "US83406F1021",
+"kurs": 17.94,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-13",
+"isin": "GB00BZ3CNK81",
+"kurs": 191.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-13",
+"isin": "US30041T1043",
+"kurs": 16.83,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-13",
+"isin": "US4581401001",
+"kurs": 104.56,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-13",
+"isin": "US83406F1021",
+"kurs": 18.43,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-14",
+"isin": "GB00BZ3CNK81",
+"kurs": 193.5,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-14",
+"isin": "US30041T1043",
+"kurs": 18.88,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-14",
+"isin": "US4581401001",
+"kurs": 102.5,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-14",
+"isin": "US83406F1021",
+"kurs": 18.29,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-17",
+"isin": "GB00BZ3CNK81",
+"kurs": 196.3,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-17",
+"isin": "US30041T1043",
+"kurs": 19.85,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-17",
+"isin": "US4581401001",
+"kurs": 103.49,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-17",
+"isin": "US83406F1021",
+"kurs": 18.31,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-18",
+"isin": "GB00BZ3CNK81",
+"kurs": 194.9,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-18",
+"isin": "US30041T1043",
+"kurs": 18.45,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-18",
+"isin": "US4581401001",
+"kurs": 96.69,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-18",
+"isin": "US83406F1021",
+"kurs": 17.66,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-19",
+"isin": "GB00BZ3CNK81",
+"kurs": 198.9,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-19",
+"isin": "US30041T1043",
+"kurs": 17.44,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-19",
+"isin": "US4581401001",
+"kurs": 92.8,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-19",
+"isin": "US83406F1021",
+"kurs": 18.42,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-20",
+"isin": "GB00BZ3CNK81",
+"kurs": 199.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-20",
+"isin": "US30041T1043",
+"kurs": 16.97,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-20",
+"isin": "US4581401001",
+"kurs": 92.13,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-20",
+"isin": "US83406F1021",
+"kurs": 17.92,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-21",
+"isin": "GB00BZ3CNK81",
+"kurs": 207.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-21",
+"isin": "US30041T1043",
+"kurs": 17.11,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-21",
+"isin": "US4581401001",
+"kurs": 90.07,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-21",
+"isin": "US83406F1021",
+"kurs": 18.91,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-24",
+"isin": "GB00BZ3CNK81",
+"kurs": 204.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-24",
+"isin": "US30041T1043",
+"kurs": 16.14,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-24",
+"isin": "US4581401001",
+"kurs": 87.26,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-24",
+"isin": "US83406F1021",
+"kurs": 18.24,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-25",
+"isin": "GB00BZ3CNK81",
+"kurs": 203.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-25",
+"isin": "US30041T1043",
+"kurs": 17.63,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-25",
+"isin": "US4581401001",
+"kurs": 87.48,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-25",
+"isin": "US83406F1021",
+"kurs": 19.0,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-26",
+"isin": "GB00BZ3CNK81",
+"kurs": 196.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-26",
+"isin": "US30041T1043",
+"kurs": 17.61,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-26",
+"isin": "US4581401001",
+"kurs": 88.24,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-26",
+"isin": "US83406F1021",
+"kurs": 18.84,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-27",
+"isin": "GB00BZ3CNK81",
+"kurs": 202.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-27",
+"isin": "US30041T1043",
+"kurs": 17.46,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-27",
+"isin": "US4581401001",
+"kurs": 92.09,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-27",
+"isin": "US83406F1021",
+"kurs": 19.18,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-28",
+"isin": "GB00BZ3CNK81",
+"kurs": 207.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-28",
+"isin": "US30041T1043",
+"kurs": 16.55,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-28",
+"isin": "US4581401001",
+"kurs": 89.47,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-28",
+"isin": "US83406F1021",
+"kurs": 18.06,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-31",
+"isin": "GB00BZ3CNK81",
+"kurs": 211.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-08-31",
+"isin": "US30041T1043",
+"kurs": 16.25,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-31",
+"isin": "US4581401001",
+"kurs": 89.51,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-08-31",
+"isin": "US83406F1021",
+"kurs": 17.88,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-01",
+"isin": "GB00BZ3CNK81",
+"kurs": 213.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-01",
+"isin": "US30041T1043",
+"kurs": 15.86,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-01",
+"isin": "US4581401001",
+"kurs": 88.97,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-01",
+"isin": "US83406F1021",
+"kurs": 17.05,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-02",
+"isin": "GB00BZ3CNK81",
+"kurs": 214.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-02",
+"isin": "US30041T1043",
+"kurs": 15.9,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-02",
+"isin": "US4581401001",
+"kurs": 90.05,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-02",
+"isin": "US83406F1021",
+"kurs": 17.84,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-03",
+"isin": "GB00BZ3CNK81",
+"kurs": 221.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-03",
+"isin": "US30041T1043",
+"kurs": 15.85,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-03",
+"isin": "US4581401001",
+"kurs": 91.67,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-03",
+"isin": "US83406F1021",
+"kurs": 18.51,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-04",
+"isin": "GB00BZ3CNK81",
+"kurs": 228.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-04",
+"isin": "US30041T1043",
+"kurs": 16.37,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-04",
+"isin": "US4581401001",
+"kurs": 95.8,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-04",
+"isin": "US83406F1021",
+"kurs": 18.22,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-07",
+"isin": "GB00BZ3CNK81",
+"kurs": 223.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-08",
+"isin": "GB00BZ3CNK81",
+"kurs": 224.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-08",
+"isin": "US30041T1043",
+"kurs": 16.65,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-08",
+"isin": "US4581401001",
+"kurs": 104.47,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-08",
+"isin": "US83406F1021",
+"kurs": 18.01,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-09",
+"isin": "GB00BZ3CNK81",
+"kurs": 215.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-09",
+"isin": "US30041T1043",
+"kurs": 16.72,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-09",
+"isin": "US4581401001",
+"kurs": 106.24,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-09",
+"isin": "US83406F1021",
+"kurs": 17.33,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-10",
+"isin": "GB00BZ3CNK81",
+"kurs": 221.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-10",
+"isin": "US30041T1043",
+"kurs": 15.93,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-10",
+"isin": "US4581401001",
+"kurs": 100.32,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-10",
+"isin": "US83406F1021",
+"kurs": 17.21,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-11",
+"isin": "GB00BZ3CNK81",
+"kurs": 222.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-11",
+"isin": "US30041T1043",
+"kurs": 16.22,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-11",
+"isin": "US4581401001",
+"kurs": 102.94,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-11",
+"isin": "US83406F1021",
+"kurs": 17.32,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-14",
+"isin": "GB00BZ3CNK81",
+"kurs": 229.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-14",
+"isin": "US30041T1043",
+"kurs": 14.73,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-14",
+"isin": "US4581401001",
+"kurs": 97.19,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-14",
+"isin": "US83406F1021",
+"kurs": 17.65,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-15",
+"isin": "GB00BZ3CNK81",
+"kurs": 222.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-15",
+"isin": "US30041T1043",
+"kurs": 14.51,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-15",
+"isin": "US4581401001",
+"kurs": 97.14,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-15",
+"isin": "US83406F1021",
+"kurs": 17.07,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-16",
+"isin": "GB00BZ3CNK81",
+"kurs": 238.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-16",
+"isin": "US30041T1043",
+"kurs": 14.37,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-16",
+"isin": "US4581401001",
+"kurs": 101.05,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-16",
+"isin": "US83406F1021",
+"kurs": 16.84,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-17",
+"isin": "GB00BZ3CNK81",
+"kurs": 241.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-17",
+"isin": "US30041T1043",
+"kurs": 14.81,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-17",
+"isin": "US4581401001",
+"kurs": 108.8,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-17",
+"isin": "US83406F1021",
+"kurs": 16.73,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-18",
+"isin": "GB00BZ3CNK81",
+"kurs": 250.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-18",
+"isin": "US30041T1043",
+"kurs": 15.28,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-18",
+"isin": "US4581401001",
+"kurs": 108.6,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-18",
+"isin": "US83406F1021",
+"kurs": 16.96,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-21",
+"isin": "GB00BZ3CNK81",
+"kurs": 247.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-21",
+"isin": "IE00BNNLSN94",
+"kurs": 292.293,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-21",
+"isin": "SE0007074166",
+"kurs": 5.57,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-09-21",
+"isin": "US30041T1043",
+"kurs": 17.17,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-21",
+"isin": "US4581401001",
+"kurs": 121.78,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-21",
+"isin": "US83406F1021",
+"kurs": 16.97,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-22",
+"isin": "GB00BZ3CNK81",
+"kurs": 232.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-22",
+"isin": "IE00BNNLSN94",
+"kurs": 294.643,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-22",
+"isin": "SE0007074166",
+"kurs": 5.4,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-09-22",
+"isin": "US30041T1043",
+"kurs": 17.68,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-22",
+"isin": "US4581401001",
+"kurs": 123.86,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-22",
+"isin": "US83406F1021",
+"kurs": 17.16,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-23",
+"isin": "GB00BZ3CNK81",
+"kurs": 225.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-23",
+"isin": "IE00BNNLSN94",
+"kurs": 293.415,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-23",
+"isin": "SE0007074166",
+"kurs": 5.5,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-09-23",
+"isin": "US30041T1043",
+"kurs": 17.09,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-23",
+"isin": "US4581401001",
+"kurs": 122.6,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-23",
+"isin": "US83406F1021",
+"kurs": 16.55,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-24",
+"isin": "GB00BZ3CNK81",
+"kurs": 228.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-24",
+"isin": "IE00BNNLSN94",
+"kurs": 294.656,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-24",
+"isin": "SE0007074166",
+"kurs": 5.93,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-09-24",
+"isin": "US30041T1043",
+"kurs": 17.88,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-24",
+"isin": "US4581401001",
+"kurs": 127.39,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-24",
+"isin": "US83406F1021",
+"kurs": 16.8,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-25",
+"isin": "GB00BZ3CNK81",
+"kurs": 227.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-25",
+"isin": "IE00BNNLSN94",
+"kurs": 295.787,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-25",
+"isin": "SE0007074166",
+"kurs": 12.16,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-09-25",
+"isin": "US30041T1043",
+"kurs": 18.47,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-25",
+"isin": "US4581401001",
+"kurs": 123.0,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-25",
+"isin": "US83406F1021",
+"kurs": 16.58,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-28",
+"isin": "GB00BZ3CNK81",
+"kurs": 234.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-28",
+"isin": "IE00BNNLSN94",
+"kurs": 293.312,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-28",
+"isin": "SE0007074166",
+"kurs": 10.98,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-09-28",
+"isin": "US30041T1043",
+"kurs": 18.13,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-28",
+"isin": "US4581401001",
+"kurs": 116.03,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-28",
+"isin": "US83406F1021",
+"kurs": 15.93,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-29",
+"isin": "GB00BZ3CNK81",
+"kurs": 237.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-29",
+"isin": "IE00BNNLSN94",
+"kurs": 294.948,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-29",
+"isin": "SE0007074166",
+"kurs": 10.06,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-09-29",
+"isin": "US30041T1043",
+"kurs": 18.63,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-29",
+"isin": "US4581401001",
+"kurs": 115.93,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-29",
+"isin": "US83406F1021",
+"kurs": 15.91,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-30",
+"isin": "GB00BZ3CNK81",
+"kurs": 252.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-30",
+"isin": "IE00BNNLSN94",
+"kurs": 295.778,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-09-30",
+"isin": "SE0007074166",
+"kurs": 10.54,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-09-30",
+"isin": "US30041T1043",
+"kurs": 18.44,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-30",
+"isin": "US4581401001",
+"kurs": 120.23,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-09-30",
+"isin": "US83406F1021",
+"kurs": 15.72,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-01",
+"isin": "GB00BZ3CNK81",
+"kurs": 255.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-01",
+"isin": "IE00BNNLSN94",
+"kurs": 300.448,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-01",
+"isin": "SE0007074166",
+"kurs": 9.96,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-01",
+"isin": "US30041T1043",
+"kurs": 18.65,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-01",
+"isin": "US4581401001",
+"kurs": 120.0,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-01",
+"isin": "US83406F1021",
+"kurs": 15.84,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-02",
+"isin": "GB00BZ3CNK81",
+"kurs": 259.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-02",
+"isin": "IE00BNNLSN94",
+"kurs": 303.317,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-02",
+"isin": "SE0007074166",
+"kurs": 9.99,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-02",
+"isin": "US30041T1043",
+"kurs": 18.83,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-02",
+"isin": "US4581401001",
+"kurs": 119.33,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-02",
+"isin": "US83406F1021",
+"kurs": 15.77,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-05",
+"isin": "GB00BZ3CNK81",
+"kurs": 262.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-05",
+"isin": "IE00BNNLSN94",
+"kurs": 307.473,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-05",
+"isin": "SE0007074166",
+"kurs": 10.5,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-05",
+"isin": "US30041T1043",
+"kurs": 18.22,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-05",
+"isin": "US4581401001",
+"kurs": 116.19,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-05",
+"isin": "US83406F1021",
+"kurs": 15.92,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-06",
+"isin": "GB00BZ3CNK81",
+"kurs": 259.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-06",
+"isin": "IE00BNNLSN94",
+"kurs": 307.986,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-06",
+"isin": "SE0007074166",
+"kurs": 11.24,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-06",
+"isin": "US30041T1043",
+"kurs": 17.76,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-06",
+"isin": "US4581401001",
+"kurs": 112.5,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-06",
+"isin": "US83406F1021",
+"kurs": 15.76,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-07",
+"isin": "GB00BZ3CNK81",
+"kurs": 261.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-07",
+"isin": "IE00BNNLSN94",
+"kurs": 308.537,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-07",
+"isin": "SE0007074166",
+"kurs": 11.0,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-07",
+"isin": "US30041T1043",
+"kurs": 17.23,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-07",
+"isin": "US4581401001",
+"kurs": 113.12,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-07",
+"isin": "US83406F1021",
+"kurs": 15.66,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-08",
+"isin": "GB00BZ3CNK81",
+"kurs": 267.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-08",
+"isin": "IE00BNNLSN94",
+"kurs": 303.338,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-08",
+"isin": "SE0007074166",
+"kurs": 11.3,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-08",
+"isin": "US30041T1043",
+"kurs": 16.55,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-08",
+"isin": "US4581401001",
+"kurs": 107.08,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-08",
+"isin": "US83406F1021",
+"kurs": 15.61,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-09",
+"isin": "GB00BZ3CNK81",
+"kurs": 271.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-09",
+"isin": "IE00BNNLSN94",
+"kurs": 305.365,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-09",
+"isin": "SE0007074166",
+"kurs": 11.5,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-09",
+"isin": "US30041T1043",
+"kurs": 16.45,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-09",
+"isin": "US4581401001",
+"kurs": 104.7,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-09",
+"isin": "US83406F1021",
+"kurs": 15.8,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-12",
+"isin": "GB00BZ3CNK81",
+"kurs": 275.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-12",
+"isin": "IE00BNNLSN94",
+"kurs": 303.676,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-12",
+"isin": "SE0007074166",
+"kurs": 10.78,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-12",
+"isin": "US30041T1043",
+"kurs": 15.28,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-12",
+"isin": "US4581401001",
+"kurs": 101.35,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-12",
+"isin": "US83406F1021",
+"kurs": 15.23,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-13",
+"isin": "GB00BZ3CNK81",
+"kurs": 274.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-13",
+"isin": "IE00BNNLSN94",
+"kurs": 302.632,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-13",
+"isin": "SE0007074166",
+"kurs": 10.32,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-13",
+"isin": "US30041T1043",
+"kurs": 15.08,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-13",
+"isin": "US4581401001",
+"kurs": 102.81,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-13",
+"isin": "US83406F1021",
+"kurs": 15.24,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-14",
+"isin": "GB00BZ3CNK81",
+"kurs": 267.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-14",
+"isin": "IE00BNNLSN94",
+"kurs": 296.387,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-14",
+"isin": "SE0007074166",
+"kurs": 10.2,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-14",
+"isin": "US30041T1043",
+"kurs": 13.66,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-14",
+"isin": "US4581401001",
+"kurs": 98.12,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-14",
+"isin": "US83406F1021",
+"kurs": 14.22,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-15",
+"isin": "GB00BZ3CNK81",
+"kurs": 262.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-15",
+"isin": "IE00BNNLSN94",
+"kurs": 292.404,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-15",
+"isin": "SE0007074166",
+"kurs": 10.2,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-15",
+"isin": "US30041T1043",
+"kurs": 14.07,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-15",
+"isin": "US4581401001",
+"kurs": 95.37,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-15",
+"isin": "US83406F1021",
+"kurs": 15.09,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-16",
+"isin": "GB00BZ3CNK81",
+"kurs": 258.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-16",
+"isin": "IE000563TYB5",
+"kurs": 178.86,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-16",
+"isin": "IE00BNNLSN94",
+"kurs": 283.035,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-16",
+"isin": "SE0007074166",
+"kurs": 10.5,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-16",
+"isin": "SE0017832397",
+"kurs": 157.77,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-16",
+"isin": "SE0028778431",
+"kurs": 10.25,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.473477
+},
+{
+"dato": "2026-10-16",
+"isin": "US30041T1043",
+"kurs": 13.02,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-16",
+"isin": "US4581401001",
+"kurs": 89.85,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-16",
+"isin": "US83406F1021",
+"kurs": 14.55,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-19",
+"isin": "GB00BZ3CNK81",
+"kurs": 255.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-19",
+"isin": "IE000563TYB5",
+"kurs": 180.13,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-19",
+"isin": "IE00BNNLSN94",
+"kurs": 286.874,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-19",
+"isin": "SE0007074166",
+"kurs": 10.68,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-19",
+"isin": "SE0017832397",
+"kurs": 158.23,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-19",
+"isin": "SE0028778431",
+"kurs": 10.14,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.473477
+},
+{
+"dato": "2026-10-19",
+"isin": "US30041T1043",
+"kurs": 13.42,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-19",
+"isin": "US4581401001",
+"kurs": 92.03,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-19",
+"isin": "US83406F1021",
+"kurs": 14.3,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65536
+},
+{
+"dato": "2026-10-20",
+"isin": "GB00BZ3CNK81",
+"kurs": 249.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-20",
+"isin": "IE000563TYB5",
+"kurs": 180.33,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-20",
+"isin": "IE00BNNLSN94",
+"kurs": 284.707,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-20",
+"isin": "SE0007074166",
+"kurs": 10.88,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-20",
+"isin": "SE0017832397",
+"kurs": 158.08,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-20",
+"isin": "SE0028778431",
+"kurs": 10.13,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472155
+},
+{
+"dato": "2026-10-20",
+"isin": "US30041T1043",
+"kurs": 13.21,
+"valuta": "USD",
+"dkk_pr_enhed": 6.659186
+},
+{
+"dato": "2026-10-20",
+"isin": "US4581401001",
+"kurs": 91.69,
+"valuta": "USD",
+"dkk_pr_enhed": 6.659186
+},
+{
+"dato": "2026-10-20",
+"isin": "US83406F1021",
+"kurs": 14.68,
+"valuta": "USD",
+"dkk_pr_enhed": 6.659186
+},
+{
+"dato": "2026-10-21",
+"isin": "GB00BZ3CNK81",
+"kurs": 263.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-21",
+"isin": "SE0007074166",
+"kurs": 11.2,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.670303
+},
+{
+"dato": "2026-10-21",
+"isin": "SE0017832397",
+"kurs": 159.44,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-21",
+"isin": "SE0028778431",
+"kurs": 10.25,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472155
+},
+{
+"dato": "2026-10-21",
+"isin": "US30041T1043",
+"kurs": 13.65,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65527025
+},
+{
+"dato": "2026-10-21",
+"isin": "US4581401001",
+"kurs": 92.96,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65527025
+},
+{
+"dato": "2026-10-21",
+"isin": "US83406F1021",
+"kurs": 14.9,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65527025
+},
+{
+"dato": "2026-10-22",
+"isin": "IE000563TYB5",
+"kurs": 179.67,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-22",
+"isin": "IE00BNNLSN94",
+"kurs": 279.31,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-22",
+"isin": "SE0028778431",
+"kurs": 10.13,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472155
+},
+{
+"dato": "2026-10-22",
+"isin": "US30041T1043",
+"kurs": 12.41,
+"valuta": "USD",
+"dkk_pr_enhed": 6.66810527
+},
+{
+"dato": "2026-10-22",
+"isin": "US4581401001",
+"kurs": 85.49,
+"valuta": "USD",
+"dkk_pr_enhed": 6.66810527
+},
+{
+"dato": "2026-10-22",
+"isin": "US83406F1021",
+"kurs": 14.77,
+"valuta": "USD",
+"dkk_pr_enhed": 6.66810527
+},
+{
+"dato": "2026-10-23",
+"isin": "IE00BNNLSN94",
+"kurs": 279.71,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-23",
+"isin": "SE0017832397",
+"kurs": 157.27,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-23",
+"isin": "SE0028778431",
+"kurs": 10.06,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472155
+},
+{
+"dato": "2026-10-23",
+"isin": "US30041T1043",
+"kurs": 12.59,
+"valuta": "USD",
+"dkk_pr_enhed": 6.66142046
+},
+{
+"dato": "2026-10-23",
+"isin": "US4581401001",
+"kurs": 86.96,
+"valuta": "USD",
+"dkk_pr_enhed": 6.66142046
+},
+{
+"dato": "2026-10-23",
+"isin": "US83406F1021",
+"kurs": 14.62,
+"valuta": "USD",
+"dkk_pr_enhed": 6.66142046
+},
+{
+"dato": "2026-10-26",
+"isin": "GB00BZ3CNK81",
+"kurs": 273.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-26",
+"isin": "SE0028778431",
+"kurs": 10.16,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472155
+},
+{
+"dato": "2026-10-26",
+"isin": "US30041T1043",
+"kurs": 12.79,
+"valuta": "USD",
+"dkk_pr_enhed": 6.68938317
+},
+{
+"dato": "2026-10-26",
+"isin": "US4581401001",
+"kurs": 90.47,
+"valuta": "USD",
+"dkk_pr_enhed": 6.68938317
+},
+{
+"dato": "2026-10-26",
+"isin": "US83406F1021",
+"kurs": 14.46,
+"valuta": "USD",
+"dkk_pr_enhed": 6.68938317
+},
+{
+"dato": "2026-10-27",
+"isin": "GB00BZ3CNK81",
+"kurs": 272.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-27",
+"isin": "IE00BNNLSN94",
+"kurs": 288.33,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-27",
+"isin": "SE0028778431",
+"kurs": 10.23,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472155
+},
+{
+"dato": "2026-10-27",
+"isin": "US30041T1043",
+"kurs": 13.93,
+"valuta": "USD",
+"dkk_pr_enhed": 6.71238294
+},
+{
+"dato": "2026-10-27",
+"isin": "US4581401001",
+"kurs": 93.65,
+"valuta": "USD",
+"dkk_pr_enhed": 6.71238294
+},
+{
+"dato": "2026-10-27",
+"isin": "US83406F1021",
+"kurs": 16.4,
+"valuta": "USD",
+"dkk_pr_enhed": 6.71238294
+},
+{
+"dato": "2026-10-28",
+"isin": "GB00BZ3CNK81",
+"kurs": 281.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-28",
+"isin": "SE0017832397",
+"kurs": 160.72,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-28",
+"isin": "SE0028778431",
+"kurs": 10.27,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472298
+},
+{
+"dato": "2026-10-28",
+"isin": "US30041T1043",
+"kurs": 14.65,
+"valuta": "USD",
+"dkk_pr_enhed": 6.71238294
+},
+{
+"dato": "2026-10-28",
+"isin": "US4581401001",
+"kurs": 95.53,
+"valuta": "USD",
+"dkk_pr_enhed": 6.71238294
+},
+{
+"dato": "2026-10-28",
+"isin": "US83406F1021",
+"kurs": 17.14,
+"valuta": "USD",
+"dkk_pr_enhed": 6.71238294
+},
+{
+"dato": "2026-10-29",
+"isin": "GB00BZ3CNK81",
+"kurs": 284.2,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-29",
+"isin": "IE000563TYB5",
+"kurs": 182.66,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-29",
+"isin": "IE00BNNLSN94",
+"kurs": 284.82,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-29",
+"isin": "SE0017832397",
+"kurs": 160.03,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-29",
+"isin": "SE0028778431",
+"kurs": 10.41,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472485
+},
+{
+"dato": "2026-10-29",
+"isin": "US30041T1043",
+"kurs": 14.43,
+"valuta": "USD",
+"dkk_pr_enhed": 6.68562831
+},
+{
+"dato": "2026-10-29",
+"isin": "US4581401001",
+"kurs": 92.07,
+"valuta": "USD",
+"dkk_pr_enhed": 6.68562831
+},
+{
+"dato": "2026-10-29",
+"isin": "US83406F1021",
+"kurs": 17.61,
+"valuta": "USD",
+"dkk_pr_enhed": 6.68562831
+},
+{
+"dato": "2026-10-30",
+"isin": "GB00BZ3CNK81",
+"kurs": 284.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-30",
+"isin": "SE0017832397",
+"kurs": 157.7,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-10-30",
+"isin": "SE0028778431",
+"kurs": 10.32,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472485
+},
+{
+"dato": "2026-10-30",
+"isin": "US30041T1043",
+"kurs": 13.61,
+"valuta": "USD",
+"dkk_pr_enhed": 6.69343224
+},
+{
+"dato": "2026-10-30",
+"isin": "US4581401001",
+"kurs": 65.76,
+"valuta": "USD",
+"dkk_pr_enhed": 6.69343224
+},
+{
+"dato": "2026-10-30",
+"isin": "US83406F1021",
+"kurs": 16.76,
+"valuta": "USD",
+"dkk_pr_enhed": 6.69343224
+},
+{
+"dato": "2026-11-02",
+"isin": "GB00BZ3CNK81",
+"kurs": 274.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-02",
+"isin": "IE000563TYB5",
+"kurs": 176.96,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-02",
+"isin": "IE00BNNLSN94",
+"kurs": 265.06,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-02",
+"isin": "SE0017832397",
+"kurs": 156.93,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-02",
+"isin": "SE0028778431",
+"kurs": 10.4,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472485
+},
+{
+"dato": "2026-11-02",
+"isin": "US4581401001",
+"kurs": 59.97,
+"valuta": "USD",
+"dkk_pr_enhed": 6.67730365
+},
+{
+"dato": "2026-11-02",
+"isin": "US83406F1021",
+"kurs": 16.6,
+"valuta": "USD",
+"dkk_pr_enhed": 6.67730365
+},
+{
+"dato": "2026-11-03",
+"isin": "IE000563TYB5",
+"kurs": 177.66,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-03",
+"isin": "SE0017832397",
+"kurs": 157.09,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-03",
+"isin": "US30041T1043",
+"kurs": 13.55,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65286029
+},
+{
+"dato": "2026-11-03",
+"isin": "US4581401001",
+"kurs": 60.55,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65286029
+},
+{
+"dato": "2026-11-03",
+"isin": "US83406F1021",
+"kurs": 16.77,
+"valuta": "USD",
+"dkk_pr_enhed": 6.65286029
+},
+{
+"dato": "2026-11-04",
+"isin": "GB00BZ3CNK81",
+"kurs": 252.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-04",
+"isin": "IE000563TYB5",
+"kurs": 181.04,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-04",
+"isin": "IE00BNNLSN94",
+"kurs": 268.12,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-04",
+"isin": "SE0017832397",
+"kurs": 158.72,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-04",
+"isin": "SE0028778431",
+"kurs": 10.57,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472799
+},
+{
+"dato": "2026-11-04",
+"isin": "US4581401001",
+"kurs": 58.27,
+"valuta": "USD",
+"dkk_pr_enhed": 6.70873274
+},
+{
+"dato": "2026-11-04",
+"isin": "US83406F1021",
+"kurs": 17.38,
+"valuta": "USD",
+"dkk_pr_enhed": 6.70873274
+},
+{
+"dato": "2026-11-05",
+"isin": "IE000563TYB5",
+"kurs": 172.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-05",
+"isin": "SE0017832397",
+"kurs": 154.71,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-05",
+"isin": "US4581401001",
+"kurs": 52.25,
+"valuta": "USD",
+"dkk_pr_enhed": 6.70873274
+},
+{
+"dato": "2026-11-05",
+"isin": "US83406F1021",
+"kurs": 16.04,
+"valuta": "USD",
+"dkk_pr_enhed": 6.70873274
+},
+{
+"dato": "2026-11-06",
+"isin": "IE00BNNLSN94",
+"kurs": 253.94,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-06",
+"isin": "SE0017832397",
+"kurs": 154.95,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-06",
+"isin": "US4581401001",
+"kurs": 56.28,
+"valuta": "USD",
+"dkk_pr_enhed": 6.70873274
+},
+{
+"dato": "2026-11-09",
+"isin": "IE000563TYB5",
+"kurs": 178.3,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-09",
+"isin": "SE0028778431",
+"kurs": 10.5,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472253
+},
+{
+"dato": "2026-11-10",
+"isin": "GB00BZ3CNK81",
+"kurs": 230.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-10",
+"isin": "SE0007074166",
+"kurs": 9.77,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.679209
+},
+{
+"dato": "2026-11-10",
+"isin": "SE0017832397",
+"kurs": 157.43,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-10",
+"isin": "US30041T1043",
+"kurs": 12.7,
+"valuta": "USD",
+"dkk_pr_enhed": 6.67820697
+},
+{
+"dato": "2026-11-10",
+"isin": "US4581401001",
+"kurs": 58.11,
+"valuta": "USD",
+"dkk_pr_enhed": 6.67820697
+},
+{
+"dato": "2026-11-10",
+"isin": "US83406F1021",
+"kurs": 16.37,
+"valuta": "USD",
+"dkk_pr_enhed": 6.67820697
+},
+{
+"dato": "2026-11-11",
+"isin": "IE000563TYB5",
+"kurs": 181.76,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-11",
+"isin": "IE00BNNLSN94",
+"kurs": 269.8,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-11",
+"isin": "SE0017832397",
+"kurs": 159.65,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-11",
+"isin": "SE0028778431",
+"kurs": 10.64,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.472253
+},
+{
+"dato": "2026-11-12",
+"isin": "GB00BZ3CNK81",
+"kurs": 243.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-12",
+"isin": "IE000563TYB5",
+"kurs": 181.93,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-12",
+"isin": "IE00BNNLSN94",
+"kurs": 270.34,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-12",
+"isin": "SE0007074166",
+"kurs": 9.92,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.6757240481614057
+},
+{
+"dato": "2026-11-12",
+"isin": "SE0028778431",
+"kurs": 10.67,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.4754
+},
+{
+"dato": "2026-11-12",
+"isin": "US83406F1021",
+"kurs": 15.63,
+"valuta": "USD",
+"dkk_pr_enhed": 6.7461420449417915
+},
+{
+"dato": "2026-11-13",
+"isin": "GB00BZ3CNK81",
+"kurs": 247.4,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-13",
+"isin": "SE0007074166",
+"kurs": 10.08,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.6757240481614057
+},
+{
+"dato": "2026-11-13",
+"isin": "US83406F1021",
+"kurs": 15.42,
+"valuta": "USD",
+"dkk_pr_enhed": 6.7461420449417915
+}
+]
