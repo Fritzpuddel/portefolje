@@ -3,77 +3,77 @@
 "isin": "GB00BZ3CNK81",
 "papir": "TORM plc A",
 "ticker": "TRMD A",
-"kurs": 232.8,
+"kurs": 219.8,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-17",
+"kursdato": "2026-11-18",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-17T21:47:42Z"
+"hentet": "2026-11-18T21:46:37Z"
 },
 {
 "isin": "IE000563TYB5",
 "papir": "Nordnet Global Indeks 125 DKK",
 "ticker": "Nordnet Global Indeks 125 DKK",
-"kurs": 177.61,
+"kurs": 175.02,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-16",
+"kursdato": "2026-11-17",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-17T21:47:42Z"
+"hentet": "2026-11-18T21:46:37Z"
 },
 {
 "isin": "IE00BNNLSN94",
 "papir": "Nordnet Teknologi Indeks DKK",
 "ticker": "Nordnet Teknologi Indeks DKK",
-"kurs": 258.8,
+"kurs": 255.9,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-16",
+"kursdato": "2026-11-17",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-17T21:47:42Z"
+"hentet": "2026-11-18T21:46:37Z"
 },
 {
 "isin": "SE0007074166",
 "papir": "Nanexa AB",
 "ticker": "NANEXA",
-"kurs": 10.04,
+"kurs": 9.92,
 "valuta": "SEK",
-"dkk_pr_enhed": 0.6728082808280829,
-"kursdato": "2026-11-17",
+"dkk_pr_enhed": 0.6707708875527236,
+"kursdato": "2026-11-18",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-17T21:47:42Z"
+"hentet": "2026-11-18T21:46:37Z"
 },
 {
 "isin": "SE0017832397",
 "papir": "Nordnet One Offensiv DKK",
 "ticker": "Nordnet One Offensiv DKK",
-"kurs": 159.2,
+"kurs": 157.13,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-13",
+"kursdato": "2026-11-16",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-17T21:47:42Z"
+"hentet": "2026-11-18T21:46:37Z"
 },
 {
 "isin": "SE0028778431",
 "papir": "Nordnet Germany A",
 "ticker": "NORDNET GERMANY A",
-"kurs": 10.6,
+"kurs": 10.39,
 "valuta": "EUR",
-"dkk_pr_enhed": 7.4752,
-"kursdato": "2026-11-16",
+"dkk_pr_enhed": 7.4749,
+"kursdato": "2026-11-17",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-17T21:47:42Z"
+"hentet": "2026-11-18T21:46:37Z"
 },
 {
 "isin": "US83406F1021",
 "papir": "SoFi Technologies",
 "ticker": "SOFI",
-"kurs": 14.28,
+"kurs": 14.11,
 "valuta": "USD",
-"dkk_pr_enhed": 6.802165802165802,
-"kursdato": "2026-11-17",
+"dkk_pr_enhed": 6.814733770970095,
+"kursdato": "2026-11-18",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-17T21:47:42Z"
+"hentet": "2026-11-18T21:46:37Z"
 }
 ]
