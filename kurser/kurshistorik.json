@@ -2570,6 +2570,13 @@
 },
 {
 "dato": "2026-11-17",
+"isin": "SE0017832397",
+"kurs": 155.53,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-17",
 "isin": "SE0028778431",
 "kurs": 10.39,
 "valuta": "EUR",
@@ -2591,6 +2598,20 @@
 },
 {
 "dato": "2026-11-18",
+"isin": "IE000563TYB5",
+"kurs": 175.26,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-18",
+"isin": "IE00BNNLSN94",
+"kurs": 258.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-18",
 "isin": "SE0007074166",
 "kurs": 9.92,
 "valuta": "SEK",
@@ -2598,9 +2619,37 @@
 },
 {
 "dato": "2026-11-18",
+"isin": "SE0028778431",
+"kurs": 10.28,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.4744
+},
+{
+"dato": "2026-11-18",
 "isin": "US83406F1021",
 "kurs": 14.11,
 "valuta": "USD",
 "dkk_pr_enhed": 6.814733770970095
+},
+{
+"dato": "2026-11-19",
+"isin": "GB00BZ3CNK81",
+"kurs": 219.0,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-19",
+"isin": "SE0007074166",
+"kurs": 9.95,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.6705122454472054
+},
+{
+"dato": "2026-11-19",
+"isin": "US83406F1021",
+"kurs": 13.53,
+"valuta": "USD",
+"dkk_pr_enhed": 6.79967248908297
 }
 ]
