@@ -6,74 +6,63 @@
 "kurs": 219.0,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-19",
+"kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-19T21:45:51Z"
+"hentet": "2026-11-20T21:48:57Z"
 },
 {
 "isin": "IE000563TYB5",
 "papir": "Nordnet Global Indeks 125 DKK",
 "ticker": "Nordnet Global Indeks 125 DKK",
-"kurs": 175.26,
+"kurs": 170.89,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-18",
+"kursdato": "2026-11-19",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-19T21:45:51Z"
+"hentet": "2026-11-20T21:48:57Z"
 },
 {
 "isin": "IE00BNNLSN94",
 "papir": "Nordnet Teknologi Indeks DKK",
 "ticker": "Nordnet Teknologi Indeks DKK",
-"kurs": 258.0,
+"kurs": 252.64,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-18",
+"kursdato": "2026-11-19",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-19T21:45:51Z"
+"hentet": "2026-11-20T21:48:57Z"
 },
 {
 "isin": "SE0007074166",
 "papir": "Nanexa AB",
 "ticker": "NANEXA",
-"kurs": 9.95,
+"kurs": 9.69,
 "valuta": "SEK",
-"dkk_pr_enhed": 0.6705122454472054,
-"kursdato": "2026-11-19",
+"dkk_pr_enhed": 0.6666309921962096,
+"kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-19T21:45:51Z"
-},
-{
-"isin": "SE0017832397",
-"papir": "Nordnet One Offensiv DKK",
-"ticker": "Nordnet One Offensiv DKK",
-"kurs": 155.53,
-"valuta": "DKK",
-"dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-17",
-"kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-19T21:45:51Z"
+"hentet": "2026-11-20T21:48:57Z"
 },
 {
 "isin": "SE0028778431",
 "papir": "Nordnet Germany A",
 "ticker": "NORDNET GERMANY A",
-"kurs": 10.28,
+"kurs": 10.17,
 "valuta": "EUR",
-"dkk_pr_enhed": 7.4744,
-"kursdato": "2026-11-18",
+"dkk_pr_enhed": 7.4742,
+"kursdato": "2026-11-19",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-19T21:45:51Z"
+"hentet": "2026-11-20T21:48:57Z"
 },
 {
 "isin": "US83406F1021",
 "papir": "SoFi Technologies",
 "ticker": "SOFI",
-"kurs": 13.53,
+"kurs": 12.48,
 "valuta": "USD",
-"dkk_pr_enhed": 6.79967248908297,
-"kursdato": "2026-11-19",
+"dkk_pr_enhed": 6.8012738853503185,
+"kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-19T21:45:51Z"
+"hentet": "2026-11-20T21:48:57Z"
 }
 ]
