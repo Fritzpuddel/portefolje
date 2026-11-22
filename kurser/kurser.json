@@ -8,7 +8,7 @@
 "dkk_pr_enhed": 1.0,
 "kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-21T21:49:08Z"
+"hentet": "2026-11-22T21:49:11Z"
 },
 {
 "isin": "IE000563TYB5",
@@ -19,7 +19,7 @@
 "dkk_pr_enhed": 1.0,
 "kursdato": "2026-11-19",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-21T21:49:08Z"
+"hentet": "2026-11-22T21:49:11Z"
 },
 {
 "isin": "IE00BNNLSN94",
@@ -30,7 +30,7 @@
 "dkk_pr_enhed": 1.0,
 "kursdato": "2026-11-19",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-21T21:49:08Z"
+"hentet": "2026-11-22T21:49:11Z"
 },
 {
 "isin": "SE0007074166",
@@ -41,7 +41,7 @@
 "dkk_pr_enhed": 0.6666309921962096,
 "kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-21T21:49:08Z"
+"hentet": "2026-11-22T21:49:11Z"
 },
 {
 "isin": "SE0028778431",
@@ -52,7 +52,7 @@
 "dkk_pr_enhed": 7.4742,
 "kursdato": "2026-11-19",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-21T21:49:08Z"
+"hentet": "2026-11-22T21:49:11Z"
 },
 {
 "isin": "US83406F1021",
@@ -63,6 +63,6 @@
 "dkk_pr_enhed": 6.8012738853503185,
 "kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-21T21:49:08Z"
+"hentet": "2026-11-22T21:49:11Z"
 }
 ]
