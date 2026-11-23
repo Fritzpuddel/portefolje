@@ -3,66 +3,66 @@
 "isin": "GB00BZ3CNK81",
 "papir": "TORM plc A",
 "ticker": "TRMD A",
-"kurs": 219.0,
+"kurs": 224.0,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-20",
+"kursdato": "2026-11-23",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-22T21:49:11Z"
+"hentet": "2026-11-23T21:45:54Z"
 },
 {
 "isin": "IE000563TYB5",
 "papir": "Nordnet Global Indeks 125 DKK",
 "ticker": "Nordnet Global Indeks 125 DKK",
-"kurs": 170.89,
+"kurs": 162.76,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-19",
+"kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-22T21:49:11Z"
+"hentet": "2026-11-23T21:45:54Z"
 },
 {
 "isin": "IE00BNNLSN94",
 "papir": "Nordnet Teknologi Indeks DKK",
 "ticker": "Nordnet Teknologi Indeks DKK",
-"kurs": 252.64,
+"kurs": 235.66,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-19",
+"kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-22T21:49:11Z"
+"hentet": "2026-11-23T21:45:54Z"
 },
 {
 "isin": "SE0007074166",
 "papir": "Nanexa AB",
 "ticker": "NANEXA",
-"kurs": 9.69,
+"kurs": 9.77,
 "valuta": "SEK",
-"dkk_pr_enhed": 0.6666309921962096,
-"kursdato": "2026-11-20",
+"dkk_pr_enhed": 0.6651479421579533,
+"kursdato": "2026-11-23",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-22T21:49:11Z"
+"hentet": "2026-11-23T21:45:54Z"
 },
 {
 "isin": "SE0028778431",
 "papir": "Nordnet Germany A",
 "ticker": "NORDNET GERMANY A",
-"kurs": 10.17,
+"kurs": 9.9,
 "valuta": "EUR",
-"dkk_pr_enhed": 7.4742,
-"kursdato": "2026-11-19",
+"dkk_pr_enhed": 7.4746,
+"kursdato": "2026-11-20",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-22T21:49:11Z"
+"hentet": "2026-11-23T21:45:54Z"
 },
 {
 "isin": "US83406F1021",
 "papir": "SoFi Technologies",
 "ticker": "SOFI",
-"kurs": 12.48,
+"kurs": 13.09,
 "valuta": "USD",
-"dkk_pr_enhed": 6.8012738853503185,
-"kursdato": "2026-11-20",
+"dkk_pr_enhed": 6.832982905201572,
+"kursdato": "2026-11-23",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-22T21:49:11Z"
+"hentet": "2026-11-23T21:45:54Z"
 }
 ]
