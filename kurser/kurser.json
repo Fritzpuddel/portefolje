@@ -3,56 +3,56 @@
 "isin": "GB00BZ3CNK81",
 "papir": "TORM plc A",
 "ticker": "TRMD A",
-"kurs": 223.4,
+"kurs": 225.4,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-25",
+"kursdato": "2026-11-26",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-25T21:49:44Z"
+"hentet": "2026-11-26T21:46:51Z"
 },
 {
 "isin": "IE000563TYB5",
 "papir": "Nordnet Global Indeks 125 DKK",
 "ticker": "Nordnet Global Indeks 125 DKK",
-"kurs": 170.72,
+"kurs": 169.98,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-24",
+"kursdato": "2026-11-25",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-25T21:49:44Z"
+"hentet": "2026-11-26T21:46:51Z"
 },
 {
 "isin": "IE00BNNLSN94",
 "papir": "Nordnet Teknologi Indeks DKK",
 "ticker": "Nordnet Teknologi Indeks DKK",
-"kurs": 247.21,
+"kurs": 245.09,
 "valuta": "DKK",
 "dkk_pr_enhed": 1.0,
-"kursdato": "2026-11-24",
+"kursdato": "2026-11-25",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-25T21:49:44Z"
+"hentet": "2026-11-26T21:46:51Z"
 },
 {
 "isin": "SE0007074166",
 "papir": "Nanexa AB",
 "ticker": "NANEXA",
-"kurs": 9.87,
+"kurs": 10.22,
 "valuta": "SEK",
-"dkk_pr_enhed": 0.6650620634426303,
-"kursdato": "2026-11-25",
+"dkk_pr_enhed": 0.6671457264003571,
+"kursdato": "2026-11-26",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-25T21:49:44Z"
+"hentet": "2026-11-26T21:46:51Z"
 },
 {
 "isin": "SE0028778431",
 "papir": "Nordnet Germany A",
 "ticker": "NORDNET GERMANY A",
-"kurs": 9.97,
+"kurs": 9.86,
 "valuta": "EUR",
-"dkk_pr_enhed": 7.4744,
-"kursdato": "2026-11-24",
+"dkk_pr_enhed": 7.4743,
+"kursdato": "2026-11-25",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-25T21:49:44Z"
+"hentet": "2026-11-26T21:46:51Z"
 },
 {
 "isin": "US83406F1021",
@@ -63,6 +63,6 @@
 "dkk_pr_enhed": 6.835208047553728,
 "kursdato": "2026-11-25",
 "kilde": "Nordnet (via Raspberry Pi)",
-"hentet": "2026-11-25T21:49:44Z"
+"hentet": "2026-11-26T21:46:51Z"
 }
 ]
