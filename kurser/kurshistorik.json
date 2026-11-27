@@ -2854,5 +2854,33 @@
 "kurs": 10.22,
 "valuta": "SEK",
 "dkk_pr_enhed": 0.6671457264003571
+},
+{
+"dato": "2026-11-26",
+"isin": "SE0028778431",
+"kurs": 10.07,
+"valuta": "EUR",
+"dkk_pr_enhed": 7.4737
+},
+{
+"dato": "2026-11-27",
+"isin": "GB00BZ3CNK81",
+"kurs": 231.6,
+"valuta": "DKK",
+"dkk_pr_enhed": 1.0
+},
+{
+"dato": "2026-11-27",
+"isin": "SE0007074166",
+"kurs": 9.93,
+"valuta": "SEK",
+"dkk_pr_enhed": 0.6668183440399714
+},
+{
+"dato": "2026-11-27",
+"isin": "US83406F1021",
+"kurs": 13.37,
+"valuta": "USD",
+"dkk_pr_enhed": 6.820936387697363
 }
 ]
